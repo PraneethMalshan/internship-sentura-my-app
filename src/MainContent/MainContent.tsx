@@ -1,7 +1,6 @@
 import {Component} from "react";
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import MenuItem from '@mui/material/MenuItem';
 
 export class MainContent extends Component {
     render() {
@@ -82,11 +81,19 @@ export class MainContent extends Component {
                     <TextField
                         id="outlined-select-tags"
                         select
+                        label="Meta Data"
+                        // defaultValue="EUR"
+                        helperText="Add tags"
+                    >
+                    </TextField>
+
+                    <TextField
+                        id="outlined-select-tags"
+                        select
                         label="Tags"
                         // defaultValue="EUR"
                         helperText="Add tags"
                     >
-
                     </TextField>
                 </div>
 
