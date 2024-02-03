@@ -1,7 +1,7 @@
 import {Component} from "react";
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-
+import MenuItem from '@mui/material/MenuItem';
 
 export class MainContent extends Component {
     render() {
@@ -78,6 +78,16 @@ export class MainContent extends Component {
                         type="comment"
                         // autoComplete="given_name"
                     />
+
+                    <TextField
+                        id="outlined-select-currency"
+                        select
+                        label="Select"
+                        defaultValue="EUR"
+                        helperText="Please select your currency"
+                    >
+                        
+                    </TextField>
                 </div>
 
             </Box>
