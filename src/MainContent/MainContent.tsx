@@ -17,56 +17,56 @@ export class MainContent extends Component {
 
                 <div>
                     <TextField
-                        id="outlined-password-input"
+                        id="outlined-input"
                         label="UID"
                         type="Uid"
                         // autoComplete="given_name"
                     />
 
                     <TextField
-                        id="outlined-password-input"
+                        id="outlined-input"
                         label="Email"
                         type="email"
                         // autoComplete="given_name"
                     />
 
                     <TextField
-                        id="outlined-password-input"
+                        id="outlined-input"
                         label="Given Name"
                         type="given_name"
                         // autoComplete="given_name"
                     />
 
                     <TextField
-                        id="outlined-password-input"
+                        id="outlined-input"
                         label="Middle Name"
                         type="middle_name"
                         // autoComplete="given_name"
                     />
 
                     <TextField
-                        id="outlined-password-input"
+                        id="outlined-input"
                         label="Name"
                         type="name"
                         // autoComplete="given_name"
                     />
 
                     <TextField
-                        id="outlined-password-input"
+                        id="outlined-input"
                         label="Family Name"
                         type="family_name"
                         // autoComplete="given_name"
                     />
 
                     <TextField
-                        id="outlined-password-input"
+                        id="outlined-input"
                         label="Nickname"
                         type="nickname"
                         // autoComplete="given_name"
                     />
 
                     <TextField
-                        id="outlined-password-input"
+                        id="outlined-input"
                         label="Phone Number"
                         type="phone_number"
                         // autoComplete="given_name"
@@ -80,13 +80,13 @@ export class MainContent extends Component {
                     />
 
                     <TextField
-                        id="outlined-select-currency"
+                        id="outlined-select-tags"
                         select
-                        label="Select"
-                        defaultValue="EUR"
-                        helperText="Please select your currency"
+                        label="Tags"
+                        // defaultValue="EUR"
+                        helperText="Add tags"
                     >
-                        
+
                     </TextField>
                 </div>
 
