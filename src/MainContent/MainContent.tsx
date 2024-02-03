@@ -17,45 +17,66 @@ export class MainContent extends Component {
 
                 <div>
                     <TextField
-                        required
-                        id="outlined-required"
-                        label="Required"
-                        defaultValue="Hello World"
+                        id="outlined-password-input"
+                        label="UID"
+                        type="Uid"
+                        // autoComplete="given_name"
                     />
-                    <TextField
-                        disabled
-                        id="outlined-disabled"
-                        label="Disabled"
-                        defaultValue="Hello World"
-                    />
+
                     <TextField
                         id="outlined-password-input"
-                        label="Password"
-                        type="password"
-                        autoComplete="current-password"
+                        label="Email"
+                        type="email"
+                        // autoComplete="given_name"
                     />
+
                     <TextField
-                        id="outlined-read-only-input"
-                        label="Read Only"
-                        defaultValue="Hello World"
-                        InputProps={{
-                            readOnly: true,
-                        }}
+                        id="outlined-password-input"
+                        label="Given Name"
+                        type="given_name"
+                        // autoComplete="given_name"
                     />
+
                     <TextField
-                        id="outlined-number"
-                        label="Number"
-                        type="number"
-                        InputLabelProps={{
-                            shrink: true,
-                        }}
+                        id="outlined-password-input"
+                        label="Middle Name"
+                        type="middle_name"
+                        // autoComplete="given_name"
                     />
-                    <TextField id="outlined-search" label="Search field" type="search"/>
+
                     <TextField
-                        id="outlined-helperText"
-                        label="Helper text"
-                        defaultValue="Default Value"
-                        helperText="Some important text"
+                        id="outlined-password-input"
+                        label="Name"
+                        type="name"
+                        // autoComplete="given_name"
+                    />
+
+                    <TextField
+                        id="outlined-password-input"
+                        label="Family Name"
+                        type="family_name"
+                        // autoComplete="given_name"
+                    />
+
+                    <TextField
+                        id="outlined-password-input"
+                        label="Nickname"
+                        type="nickname"
+                        // autoComplete="given_name"
+                    />
+
+                    <TextField
+                        id="outlined-password-input"
+                        label="Phone Number"
+                        type="phone_number"
+                        // autoComplete="given_name"
+                    />
+
+                    <TextField
+                        id="outlined-password-input"
+                        label="Comment"
+                        type="comment"
+                        // autoComplete="given_name"
                     />
                 </div>
 
